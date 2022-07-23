@@ -33,3 +33,11 @@ form {
     background-color: #0098d0;
     border-color: #0098d0;
 }
+
+input:valid+div {
+    display: none;
+}
+
+input:invalid+div+div {
+    display: none;
+}
